@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>Player App</title>
+    <script src="index.js" type="module"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="PlayerData">
+        <h1>Player List</h1>
+        <input id="inputPlayerName" type="text" placeholder="Enter a name">
+        <input id="inputPlayerAge" type="Number" placeholder="Enter an age">
+        <input id="inputPlayerTeam" type="text" placeholder="Enter a team">
+        <input type="button" onclick="createAndAppendPlayer()" value="Create">
+
+        <div id="loader"></div>
+        <div class="animate-bottom">
+            <table id="PlayerTable">
+                <h2>Players</h2>
+                <table>
+                    <thead>
+                        <th>&nbsp;</th>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Team</th>
+                    </thead>
+                    <tbody id="PlayerDetails">
+                    </tbody>
+                </table>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

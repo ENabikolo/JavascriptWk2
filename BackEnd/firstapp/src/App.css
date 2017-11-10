@@ -1,0 +1,85 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.ReactTable {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+    width: 100%;
+}
+.ReactTable thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+.ReactTable tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.ReactTable tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+.ReactTable tbody tr:nth-child(even) {
+    background-color: #EEF7EE;
+}
+.ReactTable tbody td {
+    border-left: none;
+    border-right: none;
+}
+.ReactTable tbody td img {
+    max-width: 90px;
+    height: auto;
+    vertical-align: middle;
+    padding: 1px;
+    background-color: #fff;
+    border: solid 1px #CCC;
+}
+.ReactTable tfoot td {
+    line-height: 32px;
+    padding: 10px;
+}
+.ReactTable button {
+    margin: 0 3px 0 0;
+}
+.ReactTable .r-paginate {
+    float: left;
+    width: 40%;
+}
+.ReactTable .r-rowcount {
+    float: left;
+}
+.ReactTable .r-stats {
+    float: right;
+}
